@@ -1,0 +1,57 @@
+<!DOCTYPE html>
+<html lang="es">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.0/css/bootstrap.min.css">
+    <link rel="stylesheet" href="css/estilo.css">
+    <title>Cómo hacer un select dinámico con Php, Jquery y Ajax</title>
+</head>
+
+<body>
+
+    <div class="container">
+        <div class="text-left page-header">
+            <h1>Combobox (select) dinámicos <small>Con Php, Mysql y Jquery (Ajax)</small></h1>
+        </div>
+
+        <div class="alert-info alert">Ejemplo de 2 selects</div>
+        <p>Elige un vídeo según la lista de reproducción:</p>
+
+        <div class="row">
+            <div class="col-md-4 marco">
+                <p>lista de reproducción<select id="lista_reproduccion" name="lista_reproduccion"
+                        class="form-control"></select></select></p>
+            </div>
+
+            <div class="col-md-4 marco">
+                <p>Videos<select name="video" id="videos" class="form-control"></select></p>
+            </div>
+            <div class="col-md-4 marco text-center">
+                <p><br><button id="enviar" type="submit" class="btn btn-success">Enviar</button></p>
+                <!--btn-block     el boton ocupa todo el contenedor -->
+            </div>
+        </div>
+
+        <div class="row">
+            <div class="col-md-8 marco">
+                <b><p id="resultadoEs"></p></b>
+                <p id="resuelto1"></p>
+            </div>
+        </div>
+
+    </div>
+
+
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+
+    <script src="js/js.js"></script>
+
+
+
+
+</body>
+
+</html>

@@ -1,0 +1,19 @@
+
+
+.row {
+    background-color: #eee;
+    padding: 30px;
+  }
+
+
+  .marco{
+      border: 1px solid red;
+  }
+
+  .marco button{
+     
+      width: 200px;
+  }
+
+
+
